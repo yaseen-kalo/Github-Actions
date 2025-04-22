@@ -5,8 +5,7 @@ on:
 
 jobs:
   sayHi:
-  runs-on: ubuntu-latest
-
-steps:
-  name: Greeting
-  run: echo "Hi, Anonymous person..."
+    runs-on: ubuntu-latest
+    steps:
+      name: Greeting
+      run: echo "Hi, Anonymous person..."
