@@ -1,0 +1,12 @@
+name: Learn, How to create a workflows
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sayHi:
+  runs-on: ubuntu-latest
+
+steps:
+  name: Greeting
+  run: echo "Hi, Anonymous person..."
