@@ -1,5 +1,5 @@
 name: Workflow name
-on:workflow_dispatch # trigger Name
+on: workflow_dispatch # trigger Name
 jobs:
   sayHi: #its a Job Name
     runs-on: ubuntu-latest #runner Name
