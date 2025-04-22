@@ -1,0 +1,11 @@
+name: Workflow name
+on:workflow_dispatch # trigger Name
+jobs:
+  sayHi: #its a Job Name
+    runs-on: ubuntu-latest #runner Name
+    steps:
+      - name: greeing #step Name
+        run: |
+          echo "Hi, Mr ABC"
+          echo "Bye, Mr ABC"
+    
